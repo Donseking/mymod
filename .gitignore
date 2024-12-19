@@ -10,6 +10,7 @@ __pycache__/
 .DS_Store
 
 # 日誌檔案
+__log__/
 *.log
 
 # 環境設定檔
