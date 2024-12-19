@@ -1,6 +1,6 @@
-# MyMod
+# MathAlgo
 
-MyMod 是一個專為 Python 開發者設計的模組，提供多種演算法、資料結構與數學工具，方便進行科學計算與程式開發。
+MathAlgo 是一個專為 Python 開發者設計的模組，提供多種演算法、資料結構與數學工具，方便進行科學計算與程式開發。
 
 
 ## 功能特色
@@ -12,10 +12,10 @@ MyMod 是一個專為 Python 開發者設計的模組，提供多種演算法、
 
 ## 使用方法
 
-以下是使用 MyMod 的範例：
+以下是使用 MathAlgo 的範例：
 
 ```python
-from mymod.algorithm.Math.linear_algebra import Matrix
+from mathalgo.Math.Matrix import Matrix
 
 # 建立矩陣
 A = Matrix([[1, 2], [3, 4]])
