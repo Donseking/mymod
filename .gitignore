@@ -1,0 +1,16 @@
+# Python 暫存檔案
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 開發工具
+.idea/
+.vscode/
+.DS_Store
+
+# 日誌檔案
+*.log
+
+# 環境設定檔
+.env
