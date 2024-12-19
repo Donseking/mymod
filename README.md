@@ -29,6 +29,8 @@ print(A.add(B))
 print("Determinant of A:")
 print(A.determinant())
 
+```
+
 ## 安裝方法
 
 1. 從 GitHub 複製專案：
