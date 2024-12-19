@@ -1,8 +1,13 @@
-class Matrix:
+from mathalgo import setup_logger, logging
+
+logger = setup_logger("Matrix_mode", "matrix.log", level = logging.INFO)
+
+class matrix:
     def __init__(self, data):
         # 初始化矩陣
         # 檢查輸入資料是否為有效矩陣（所有列長度必須相同且資料不可為空）
         if not data or not all(len(row) == len(data[0]) for row in data):
+            logger.error("矩陣初始化失敗 : 資料無效")
             raise ValueError("所有列必須具有相同的長度且資料不可為空。")
         self.data = data
         self.rows = len(data)  # 矩陣的行數
@@ -113,27 +118,3 @@ class Matrix:
         # 提取逆矩陣部分
         inverse_data = [row[n:] for row in augmented]
         return Matrix(inverse_data)
-    
-class decomposition :
-    """
-        矩陣分解方法
-    
-    """
-    def __init__(self):
-        pass
-
-class vector_space :
-    """
-        向量空間相關
-    
-    """
-    def __init__(self):
-        pass
-
-class utils :
-    """
-        工具函數
-    
-    """
-    def __init__(self):
-        pass

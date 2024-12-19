@@ -1,5 +1,10 @@
 from mymod.algorithm.Structure.Stack import Stack
 
+
+def is_almost_equal(a, b, tolerance=1e-9):
+    """ # FUN 檢查兩個浮點數是否幾乎相等。"""
+    return abs(a - b) < tolerance
+
 """
     > 1. 所有數字直接輸出
     > 2. 運算子優先級高於 棧 內的 ( 或棧空 ) 要入棧
@@ -92,3 +97,7 @@ def postfix_expression(mula) :
         out.push(stack.pop())
 
     return out.items
+
+
+# def Marix_expression(m) :
+    
