@@ -29,9 +29,30 @@ print(A.add(B))
 print("Determinant of A:")
 print(A.determinant())
 
+## 安裝方法
+
+1. 從 GitHub 複製專案：
+   ```bash
+   git clone https://github.com/Donseking/mymod.git
 
 
-#### **5. 專案結構**
-說明資料夾與檔案的功能，幫助開發者快速熟悉專案架構。
+## 貢獻指南
+
+歡迎對 MyMod 提出建議或貢獻代碼！請依照以下步驟：
+
+1. Fork 此專案到您的 GitHub 帳戶。
+2. 創建新的分支來進行修改：
+   ```bash
+   git checkout -b feature/your-feature-name
+
+
+#### **7. 版本與授權**
+提供版本資訊與開放授權說明。
 ```markdown
-## 專案結構
+## 版本
+
+目前版本：1.0.0
+
+## 授權
+
+此專案採用 MIT License 授權。詳情請參閱 [LICENSE](./LICENSE) 檔案。
